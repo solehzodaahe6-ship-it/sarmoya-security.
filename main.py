@@ -21,7 +21,7 @@ from filter import check_domain
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DASHBOARD_DIR = BASE_DIR.parent / "dashboard"
+DASHBOARD_DIR = BASE_DIR / "dashboard"
 
 
 @asynccontextmanager
